@@ -48,6 +48,15 @@ plainwhite:
     social_links:
         github: JJungwoo
 
+    dark_mode: true
+    search: true
+
+    navigation:
+        - title: test
+          url: "/test"
+        - title: Resume
+          url: "/resume"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
