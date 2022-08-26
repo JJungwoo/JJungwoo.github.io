@@ -51,11 +51,14 @@ plainwhite:
     dark_mode: true
     search: true
 
+    condensed_mobile:
+        - home
+        - post
+        - page
+
     navigation:
-        - title: test
-          url: "/test"
-        - title: Resume
-          url: "/resume"
+        - title: about
+          url: "/about"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
