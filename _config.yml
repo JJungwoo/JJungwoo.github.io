@@ -28,7 +28,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  JJungwoo
+github_username: JJungwoo
 
 # Build settings
 theme: plainwhite
@@ -51,14 +51,10 @@ plainwhite:
     dark_mode: true
     search: true
 
-    condensed_mobile:
-        - home
-        - post
-        - page
-
     navigation:
-        - title: about
+        - title: About
           url: "/about"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
