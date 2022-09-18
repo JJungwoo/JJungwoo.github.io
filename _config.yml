@@ -36,7 +36,7 @@ theme: plainwhite
 plugins:
   - jekyll-feed
 
-remote_theme: samarsault/plainwhite-jekyll
+#remote_theme: samarsault/plainwhite-jekyll
 
 plainwhite:
     name: jungwoo
@@ -55,6 +55,11 @@ plainwhite:
         - title: About
           url: "/about.html"
 
+# Conversion
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
