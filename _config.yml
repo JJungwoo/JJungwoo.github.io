@@ -20,7 +20,7 @@
 
 title: jungwoo dev blog
 email: jungwoo5759@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "baseurl:"
     develop blog
 #Write an awesome description for your new site here. You can edit this
 #line in _config.yml. It will appear in your document head meta (for
@@ -30,13 +30,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username: JJungwoo
 
-# Build settings
-theme: plainwhite
-#theme: minima
-plugins:
-  - jekyll-feed
-
-#remote_theme: samarsault/plainwhite-jekyll
 
 plainwhite:
     name: jungwoo
@@ -60,6 +53,16 @@ markdown: kramdown
 kramdown:
     input: GFM
     syntax_highlighter: rouge
+
+
+# Build settings
+theme: plainwhite
+#theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+#remote_theme: samarsault/plainwhite-jekyll
 
 # Exclude from processing.
 # The following items will not be processed, by default.
